@@ -1,6 +1,6 @@
 ### Configuration
 # CSVs location
-$location = "C:\csvdrop\" 
+$location = 'C:\csvdrop\' 
 # how many rows per CSV?
 $rowsMax = 900; 
  
