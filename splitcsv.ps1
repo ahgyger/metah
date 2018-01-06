@@ -1,6 +1,8 @@
-# Configuration
-$location = "C:\csvdrop\" # CSVs location
-$rowsMax = 900; # how many rows per CSV?
+### Configuration
+# CSVs location
+$location = "C:\csvdrop\" 
+# how many rows per CSV?
+$rowsMax = 900; 
  
 # Get all CSV under current folder
 $allCSVs = Get-ChildItem $location\* -include *.csv
